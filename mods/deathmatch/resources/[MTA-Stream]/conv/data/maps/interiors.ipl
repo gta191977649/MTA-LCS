@@ -1,0 +1,55 @@
+# IPL generated from Max file interiors.max - whatever, I made this with notepad - Surya926
+inst
+# Portland Safehouse
+3873, TonisAptInterior1, 1, 1147.953491, -241.0229034, 23.50921631, 1, 1, 1, 0, 0, 0, 1
+#3879, Shouse_null1, 1, 1147.953491, -241.0229034, 23.50921631, 1, 1, 1, 0, 0, 0, 1
+# Portland Extra Garage
+1095, ind_safeh_gdoor, 13, 1151.078711, -266.7319946, 17.75039864, 1, 1, 1, 0, 0, 0.7071067691, 0.7071067691
+# Staunton Safehouse
+3889, stauntonSafeHouse, 1, 284.6004333, -425.4629822, 45.11074066, 1, 1, 1, 0, 0, 0, 1
+# Shoreside Safehouse
+3884, shoreSafeHouse, 1, -833.8104858, 292.603241, 47.68360138, 1, 1, 1, 0, 0, 0.3583678901, 0.9335804582
+#
+####Mission Interiors####
+# Maria
+3886, izzy_mariaaptint, 2, 1071.592041, -439.3079834, 26.93300056, 1, 1, 1, 0, 0, 0, 1
+#
+# Vincenzo
+3888, iz_vin, 2, 1126.642456, -1124.688721, 14.29945469, 1, 1, 1, 0, 0, 0, 1
+#
+# Salvatore
+3885, izzy_saloffice, 2, 1457.588623, -184.3826599, 60.14500046, 1, 1, 1, 0, 0, 0, 1
+#
+# Donald Staunton Office
+3871, izzy_DonOffice, 2, 232.3226013, -1539.982666, 130, 1, 1, 1, 0, 0, 0, 1
+4096, iz_2_donoffcmock, 2, 262.369873, -1567.01355, 24.69145203, 1, 1, 1, 0, 0, -4.758402383e-008, 1
+#3851, donlove_building, 2, 241.9850311, -1444.095581, 27.6645565, 1, 1, 1, 0, 0, -0.9659258127, 0.2588190734
+#
+# Donald Shoreside Flophouse
+3868, iz_shrsdflphs, 2, -1009.557129, -161.3348999, 63.53106308, 1, 1, 1, 0, 0, -0.7071067691, 0.7071067691
+#
+# Donald Shoreside Mansion
+3891, izzy_donmanroom, 2, -380.5966797, 311.1171265, 75.14125824, 1, 1, 1, 0, 0, 0, 1
+#
+# Toshiko
+3890, izzy_toshApt, 2, 356.0131226, -1356.85022, 25.1281662, 1, 1, 1, 0, 0, 0, 1
+#
+# Shoreside Police Station
+3869, iz_shrsdplcrm, 2, -1273.621948, -34.02134705, 57.15999985, 1, 1, 1, 0, 0, 0, 1
+#
+# Staunton Church
+#3876, izzy_churchint, 2, -28.99181175, -1102.796997, 53.2159996, 1, 1, 1, 0, 0, 0, 1
+#
+# Vincenzo Ship - Unfit collisions forced me to disable this one
+#3875, BigShip_Hold, 2, 1486.036011, -1119.522949, 20.88026047, 1, 1, 1, 0, 0, 0.7071067691, 0.7071067691
+#
+# Sawmill - Unfit collisions forced me to disable this one
+#4022, jm_sawmill_inside, 3, 1173.359985, -1024.540039, 22.71879959, 1, 1, 1, 0, 0, 0, 1
+#
+end
+cull
+end
+pick
+end
+path
+end

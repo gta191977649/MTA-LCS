@@ -1,0 +1,121 @@
+objs
+3250, bankdoor, t_door, 1, 100, 0
+3251, bankjobdoor, t_door, 1, 100, 0
+3252, billboard01, t_bigsign, 1, 140, 0
+3253, billboard02, t_bigsign, 1, 140, 0
+3254, bombdoor, t_bombdoor, 1, 100, 0
+3255, canopy_grn_kb, t_chinaprop, 1, 100, 0
+3256, canopy_red_kb, t_chinaprop, 1, 100, 0
+3257, canopy_wht_kb, t_chinaprop, 1, 100, 0
+3258, canopy_whtlrg_kb, t_chinaprop, 1, 100, 0
+3259, carlift01, t_misc, 1, 80, 0
+3260, carlift02, t_misc, 1, 80, 0
+3261, ch_btmflr_3_kb, t_chinaprop, 1, 100, 0
+3262, ch_pil_kb, t_chinaprop, 1, 100, 0
+3263, chimney01, t_metal, 1, 80, 0
+3264, chinabanner1, t_chinbarrier, 1, 100, 0
+3265, chinabanner2, t_chinbarrier, 1, 100, 0
+3266, chinabanner3, t_chinbarrier, 1, 100, 0
+3267, chinabanner4, t_chinbarrier, 1, 100, 0
+3268, chinalanterns, t_chinbarrier, 1, 100, 0
+3269, chinaledge2, t_chinaprop, 1, 100, 0
+3270, com_bridgesign, t_combrgsgn, 1, 100, 0
+3271, convstore01_door, t_unclebj, 1, 100, 0
+3272, convstore01, t_unclebj, 1, 160, 0
+3273, convstre_dmge01, t_unclebj, 1, 160, 0
+3274, dogfoodoor01, t_dogfood, 1, 100, 0
+3275, door_fucked, t_wood, 1, 100, 0
+3276, dumpster01, t_misc, 1, 80, 0
+3277, eitballsdoor, t_door, 1, 100, 0
+3278, f_escape_side1, t_firescape, 1, 40, 4
+3279, firescapa1, t_chinaprop, 1, 100, 4
+3280, fishfctory, t_misc, 2, 200, 400, 0
+3281, fishoildrum, t_misc, 1, 200, 0
+3282, flagsitaly, t_talyfalg, 1, 100, 0
+3283, fratehuge, t_frate, 1, 200, 0
+3284, fshfctry_dstryd, t_misc, 2, 200, 400, 0
+3285, fshgtsbx_dstryd, t_misc, 1, 100, 0
+3286, fshgutsbox, t_misc, 1, 200, 0
+3287, glassfx1, t_generic, 1, 200, 516
+3288, glassfx2, t_generic, 1, 200, 516
+3289, glassfx3, t_generic, 1, 200, 516
+3290, glassfx4, t_generic, 1, 200, 516
+3291, glassfx55, t_generic, 1, 200, 516
+3292, grassyknoll2, t_generic, 1, 100, 0
+3293, hghwysgn01, t_roadsign, 1, 120, 4
+3294, hghwysgn02, t_roadsign, 1, 100, 0
+3295, ind_jetnoside02, t_indpier, 2, 160, 500, 0
+3296, ind_newtenement01, t_italy1, 1, 110, 0
+3297, ind_newtenement02, t_italy1, 1, 110, 0
+3298, ind_newtenement03, t_italy1, 1, 110, 0
+3299, ind_newtenement04, t_italy1, 1, 110, 0
+3300, ind_newtenement07, t_italy1, 1, 160, 0
+3301, IslandLODcomIND, isLOD_com1, 1, 3000, 0
+3302, IslandLODcomSUB, isLOD_com2, 1, 3500, 0
+3303, IslandLODInd, isLOD_ind, 1, 3000, 0
+3304, IslandLODsubIND, isLOD_sub2, 1, 2100, 0
+3305, iten_alleysteps03, t_generic, 1, 100, 0
+3306, iten_alleysteps, t_generic, 1, 100, 0
+3307, iten_balcony, t_litily, 1, 100, 0
+3308, iten_block01, t_italy1, 1, 100, 0
+3309, iten_block06, t_italy1, 1, 130, 0
+3310, iten_block09, t_italy1, 1, 100, 0
+3311, iten_box01, t_wall, 1, 100, 0
+3312, iten_chinatown2, t_chinbarrier, 1, 100, 0
+3313, iten_chinatown38, t_indchinassrt, 1, 100, 0
+3314, iten_chinatown4, t_chinbarrier, 1, 100, 0
+3315, iten_details7, t_firescape, 1, 40, 4
+3316, iten_fern01, t_vege, 1, 100, 0
+3317, iten_garage01, t_garagewood, 1, 100, 0
+3318, iten_hoteltop, t_italy1, 1, 100, 0
+3319, iten_urn01, t_urn, 1, 100, 0
+3320, iten_wall03, t_wall, 1, 100, 0
+3321, iten_wall04, t_wall, 1, 100, 0
+3322, iten_washline01, t_washin, 1, 100, 0
+3323, iten_washline02, t_washin, 1, 100, 0
+3324, iten_washline03, t_washin, 1, 100, 0
+3325, iten_windowbox, t_litily, 1, 100, 0
+3326, joeysdoor, t_door, 1, 100, 0
+3327, LOD_newtenement01, t_LOD, 1, 750, 0
+3328, LOD_newtenement02, t_LOD, 1, 750, 0
+3329, LOD_newtenement03, t_LOD, 1, 750, 0
+3330, LOD_newtenement04, t_LOD, 1, 750, 0
+3331, LOD_newtenement07, t_LOD, 1, 750, 0
+3332, LODn_block01, t_LOD, 1, 750, 0
+3333, LODn_block06, t_LOD, 1, 750, 0
+3334, LODn_block09, t_LOD, 1, 750, 0
+3335, LODn_garage01, t_LOD, 1, 750, 0
+3336, LODn_hoteltop, t_LOD, 1, 750, 0
+3337, LODtowerflat, t_LOD, 1, 750, 0
+3338, Mistydoor, t_pjs, 1, 100, 0
+3339, plnt_chimgrad, t_chimney, 1, 100, 0
+3340, policeballdoor, t_fuzzball, 1, 100, 0
+3341, rail_platform, t_railway, 1, 200, 4
+3342, railtracks, t_rail, 1, 150, 4
+3343, railtrax_2b, t_railway, 2, 110, 400, 4
+3344, railtrax_bentl, t_railway, 2, 110, 400, 4
+3345, railtrax_bentrb, t_railway, 2, 110, 400, 4
+3346, railtrax_lo4b, t_NEWstrut, 2, 110, 400, 4
+3347, railtrax_ske2b, t_railway, 2, 110, 400, 4
+3348, railtrax_skew5, t_railway, 2, 110, 400, 4
+3349, railtrax_skew, t_railway, 2, 110, 400, 4
+3350, railtrax_skewp, t_railway, 2, 110, 400, 4
+3351, railtrax_straight, t_railway, 2, 110, 400, 4
+3352, railtrax_straightss, t_railway, 2, 110, 400, 4
+3353, railtrax_strtshort, t_railway, 2, 110, 400, 4
+3354, salvatordoor, t_door, 1, 100, 0
+3355, salvatorpatiodr, t_misc, 1, 100, 0
+3356, Scffldng02top, t_bigsign, 1, 100, 0
+3357, spraydoor, t_spraydoor, 1, 100, 0
+3358, telgrphpole02, t_telegraph, 1, 92, 4
+3359, towerflat, t_pjects, 1, 150, 0
+3360, tunnel_section, t_railway, 1, 250, 0
+3361, vegcrate04, t_cardbox, 1, 40, 0
+3362, vegcrate06, t_cardbox, 1, 40, 0
+3363, vegcrate07, t_cardbox, 1, 40, 0
+3364, railtrax_bentr, t_railway, 2, 110, 400, 4
+3365, IslandLODsubCOM, islandLODsubCOM, 1, 2001, 0
+3366, Object01, generic, 1, 500, 0
+3367, Mesh01, CHANGEME, 1, 100, 0
+3368, Object02, generic, 1, 500, 0
+end

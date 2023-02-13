@@ -1,0 +1,12 @@
+<meta>
+    <script src="timecyc_lcs.lua" type="client"/>
+    <script src="debug.lua" type="client"/>
+
+    <file src="timecyc_vcs.dat" type="client"/>
+    <file src="timecyc_lcs.dat" type="client"/>
+
+    <export function="getTimeCycleValue" type="client"/>
+    <export function="getWeather" type="client"/>
+    <export function="setWeather" type="client"/>
+    <export function="setWeatherBlended" type="client"/>
+</meta>

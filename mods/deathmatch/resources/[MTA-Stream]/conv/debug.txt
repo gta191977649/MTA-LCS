@@ -1,0 +1,10 @@
+
+ERROR - IPL:izzy_mariaaptint Missing IDE
+ERROR - IPL:izzy_saloffice Missing IDE
+ERROR - IPL:iz_2_donoffcmock Missing IDE
+ERROR - IPL:iz_shrsdflphs Missing IDE
+ERROR - IPL:izzy_donmanroom Missing IDE
+ERROR - IPL:iz_shrsdplcrm Missing IDE
+ERROR - TXD:temp Missing TXD
+ERROR - TXD:generic Missing TXD
+ERROR - Col:bullion Missing COL
