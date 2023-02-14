@@ -174,7 +174,7 @@ end
 
 function initPostFx() 
     -- skip if not enabled trails effect
-    if not SKYGFX.trails then return end
+   
     
     if SKYGFX.colorFilter ~= "PS2" then return end
     shaderBlurPS = dxCreateShader("shader/blurPS.fx", 0, 0, false)

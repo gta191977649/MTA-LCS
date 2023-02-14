@@ -71,6 +71,7 @@ SKYGFX = {
     blurRight = 0.0004,
     blurBottom = 0.0004,
     doRadiosity=true,-- Enable or disable radiosity
+    doBuildingPipeline = false,
     radiosityFilterPasses=2,
     radiosityRenderPasses=1,
     radiosityIntensity=20,  -- use to override the intensity limit, 0 for use the value from timecyc (by default)

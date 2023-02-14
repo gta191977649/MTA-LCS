@@ -23,7 +23,7 @@ T = {
     sunCoronaR = 25, sunCoronaG = 26, sunCoronaB = 27,
     sunSz = 28, sprSz = 29, sprBght = 30,
     shad = 31, lightShad = 32, poleShad = 33,
-    farClp = 34, fogSt = 35, radiosityIntensity = 36, 
+    farClp = 34, fogSt = 35, LTGRD = 36, 
     radiosityLimit = 37, lightGnd = 38,
     cloudR = 39, cloudG = 40, cloudB = 41,
     fluffyTopR = 42, fluffyTopG = 43, fluffyTopB = 44,
@@ -90,8 +90,7 @@ function interpolate(a,b,fa,fb,isCurrent)
         weather.sun_size = interpolateValue(a[T["sunSz"]], b[T["sunSz"]], fa, fb)
         --weather.postfx1 =  interpolateRGBA({a[T["fluffyTopR"]],a[T["fluffyTopG"]],a[T["fluffyTopB"]],255}, b[T["fluffyTopR"]],b[T["fluffyTopG"]],b[T["fluffyTopB"]],255, fa, fb)
         --weather.postfx2 = interpolateRGBA({a[T["fluffyBotR"]],a[T["fluffyBotG"]],a[T["fluffyBotB"]],255}, b[T["fluffyBotR"]],b[T["fluffyBotG"]],b[T["fluffyBotB"]],255, fa, fb)
-        weather.dirMult = interpolateValue(a[T["lightShad"]],b[T["lightShad"]],fa,fb)
-        weather.dirMult = 1
+        weather.dirMult = interpolateValue(a[T["LTGRD"]],b[T["LTGRD"]],fa,fb)
         weather.fogSt = interpolateValue(a[T["fogSt"]],b[T["fogSt"]],fa,fb)
         weather.farClp = interpolateValue(a[T["farClp"]],b[T["farClp"]],fa,fb)
         --weather.radiosityLimit = interpolateValue(a[T["radiosityLimit"]],b[T["radiosityLimit"]],fa,fb)
@@ -109,7 +108,6 @@ function interpolate(a,b,fa,fb,isCurrent)
         --weather.postfx1 = interpolateRGBA(a.postfx1, b.postfx1, fa, fb)
         --weather.postfx2 = interpolateRGBA(a.postfx2, b.postfx2, fa, fb)
         weather.dirMult = interpolateValue(a.dirMult, b.dirMult, fa,fb)
-        weather.dirMult = 1
         weather.fogSt = interpolateValue(a.fogSt, b.fogSt, fa,fb)
         weather.farClp = interpolateValue(a.farClp, b.farClp, fa,fb)
         --weather.radiosityLimit = interpolateValue(a.radiosityLimit, b.radiosityLimit, fa,fb)

@@ -37,6 +37,7 @@ function doBuildingSimplePS()
         local r,g,b = unpack(amb)
         buildingAmbient = {r * dirMult / 0xFF, g * dirMult  / 0xFF, b * dirMult  / 0xFF, 0}
         dxSetShaderValue(buildingShader,"ambient",buildingAmbient)
+    
         -- texture material color
         dxSetShaderValue(buildingShader,"matCol",{1,1,1,1})
         --day / night params
@@ -67,10 +68,10 @@ end
 function initBuildingSimplePSPipeline() 
     
     if SKYGFX.dualPass then
-        shaderBuildingSimplePS = dxCreateShader("shader/buildingSimplePSDual.fx",0,SKYGFX.building_dist,false,"world")
+        shaderBuildingSimplePS = dxCreateShader("shader/buildingSimplePSDual.fx",0,SKYGFX.building_dist,false,"world,object")
         dxSetShaderValue(shaderBuildingSimplePS,"zwriteThreshold",SKYGFX.zwriteThreshold)
     else
-        shaderBuildingSimplePS = dxCreateShader("shader/buildingSimplePS.fx",0,SKYGFX.building_dist,false,"world")
+        shaderBuildingSimplePS = dxCreateShader("shader/buildingSimplePS.fx",0,SKYGFX.building_dist,false,"world,object")
     end
     table.insert(buildPipelineShaders,shaderBuildingSimplePS)
 

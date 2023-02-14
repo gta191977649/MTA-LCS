@@ -63,6 +63,7 @@ VS_OUTPUT main_vs(in VS_INPUT IN)
 float4 main_ps(PS_INPUT IN) : COLOR
 {
 	return tex2D(Sampler0, IN.texcoord0.xy)*IN.color*colorScale * brightness;
+
 }
 
 technique simplePS
@@ -70,6 +71,7 @@ technique simplePS
     pass P0
     {        
         //AlphaTestEnable= true;
+        
         AlphaFunc = GREATEREQUAL;
         AlphaRef = zwriteThreshold;
         

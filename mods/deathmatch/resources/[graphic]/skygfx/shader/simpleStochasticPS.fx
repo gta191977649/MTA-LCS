@@ -130,7 +130,7 @@ technique simplePS
 {
     pass P0
     {        
-        VertexShader = compile vs_2_0 main_vs();
+        VertexShader = compile vs_3_0 main_vs();
         PixelShader  = compile ps_3_0 main_ps();
     }
     

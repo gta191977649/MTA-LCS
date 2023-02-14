@@ -16,7 +16,9 @@ function SKYGFX.onClientElementStreamOut()
     end
 end
 function SKYGFX.onClientRender() 
-    doBuildingSimplePS()
+    if SKYGFX.doBuildingPipeline then
+        doBuildingSimplePS()
+    end
     doVehiclePipeline()
     if SKYGFX.fixRotor then
         renderRotorEffect()
@@ -37,7 +39,9 @@ function SKYGFX.onClientPreRender()
     end
 end
 function SKYGFX.onClientHUDRender() 
-    renderPostFX() 
+    if SKYGFX.trails then
+        renderPostFX()
+    end 
 end
 function SKYGFX.onClientElementDestroy()
     if SKYGFX.vehicleClassicFx then
@@ -67,9 +71,11 @@ function SKYGFX.start()
     -- loadtxdDB
     loadtxdDB()
     -- start skygfx
-    initBuildingSimplePSPipeline()
+    if SKYGFX.doBuildingPipeline then
+        initBuildingSimplePSPipeline()
+    end
     initVehiclePiple()
-    initPostFx()
+    if SKYGFX.trails then initPostFx() end
     initWorldMiscFx()
     
     if SKYGFX.fixRotor then 
